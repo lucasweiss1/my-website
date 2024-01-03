@@ -1,0 +1,188 @@
+html, body {
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+}
+
+.container {
+    max-width: 100%;
+    width: 90%;
+    margin: auto;
+    box-sizing: border-box;
+    background-color: white;
+}
+
+/* Header Section */
+
+.button {
+    height: fit-content;
+    width: fit-content;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.25rem;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.navigation {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#header-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1%;
+    margin-top: 1%;
+}
+
+.social-media {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-media img {
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#plane-logo {
+    max-width: 100%;
+    height: auto;
+    margin-right: 3%;
+}
+
+/* Summary */
+
+.summary {
+    max-width: 550px;
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin: 5% 0 5% 18%;
+}
+
+h1 {
+    margin-bottom: 0.5em;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.68rem;
+}
+
+.summary p {
+    margin-top: 0;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1rem;
+}
+
+/* Education */
+
+#education {
+    max-width: 1400px;
+    width: 100%;
+    background-color: #F9C5B4;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.0rem;
+    margin-bottom: 3%;
+}
+
+.education {
+    display: flex;
+    flex-direction: column;
+    padding: 5% 5% 5% 18%;
+}
+
+.education h2 {
+    font-weight: 500;
+}
+
+/* Work Experience */
+
+#work-experience {
+    max-width: 1400px;
+    width: 100%;
+    background-color: #F9C5B4;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.0rem;
+    margin-bottom: 3%;
+}
+
+.work-experience {
+    display: flex;
+    flex-direction: column;
+    padding: 5% 5% 5% 18%;
+}
+
+.work-experience h2 {
+    font-weight: 500;
+}
+
+.work-experience h3 {
+    font-weight: 500;
+}
+
+/* Skills/Awards and Certifications */
+
+#skills {
+    max-width: 1400px;
+    width: 100%;
+    background-color: #F9C5B4;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.0rem;
+}
+
+.skills {
+    display: flex;
+    flex-direction: column;
+    padding: 5% 5% 5% 18%;
+}
+
+.skills h2 {
+    font-weight: 500;
+}
+
+.skills h3 {
+    font-weight: 500;
+}
+
+/* Footer Section */
+
+#footer-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.0rem;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.button4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 0;
+    white-space: nowrap;
+}
+
+.no-underline {
+    text-decoration: none;
+}
+
+.contact-icon {
+    width: 1em; 
+    height: 1em;
+    margin-left: 6%;
+}
+
+

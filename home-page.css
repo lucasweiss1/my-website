@@ -1,0 +1,140 @@
+html, body {
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+}
+
+.container {
+    max-width: 100%;
+    width: 100%;
+    margin: auto;
+    box-sizing: border-box;
+    background-color: white;
+}
+
+/* Header Section */
+
+.button {
+    height: fit-content;
+    width: fit-content;
+    white-space: nowrap;
+    padding: 0;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.25rem;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.navigation {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#header-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1%;
+    margin-top: 1%;
+}
+
+.social-media {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-media img {
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#plane-logo {
+    max-width: 100%;
+    height: auto;
+    margin-right: 3%;
+}
+
+/* Main-Section */
+
+.main-section {
+    max-width: 1400px;
+    width: 100%;
+    height: auto;
+    min-height: 700px;
+    background-color: #91aba5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+}
+
+#profile-picture {
+    max-width: 300px;
+    width: 100%;
+    height: auto;
+    border-radius: 0.3rem;
+    margin-left: 1.7rem;
+    margin-right: 1.7rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.text-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.25rem;
+    margin-left: 1%;
+}
+
+.text-content h1 {
+    margin-bottom: 0.5em;
+}
+
+.text-content p {
+    margin-top: 0.5em;
+}
+
+/* Footer Section*/
+
+#footer-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.0rem;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.button4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 0;
+    white-space: nowrap;
+}
+
+.no-underline {
+    text-decoration: none;
+}
+
+.contact-icon {
+    width: 1em; 
+    height: 1em;
+    margin-left: 6%;
+}
+
+    
+
